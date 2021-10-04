@@ -5,7 +5,8 @@ function countdown() {
 
   if (c == 0){
     alert("Вы победили в конкурсе!");
+    setInterval(id)
   }
 }
 
-setInterval(countdown,1000)
+ let id = setInterval(countdown,1000)
