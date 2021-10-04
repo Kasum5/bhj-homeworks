@@ -5,7 +5,7 @@ function countdown() {
 
   if (c == 0){
     alert("Вы победили в конкурсе!");
-    setInterval(id)
+    clearInterval(id)
   }
 }
 
